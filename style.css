@@ -5,4 +5,20 @@
     gap: 10px;
     height: 150px;
     background: #eef;
-    r
+    border: 2px dashed #88f;
+    padding: 10px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6a9cff;
+    color: #fff;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.child:nth-child(1) { width: 60px; }
+.child:nth-child(2) { width: 120px; }
+.child:nth-child(3) { width: 90px; }
